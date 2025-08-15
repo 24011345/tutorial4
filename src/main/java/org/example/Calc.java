@@ -7,8 +7,8 @@ public class Calc {
         return x+y;
     }
 
-    public int subtract(int x, int y)
+    public int subtract(int a, int b)
     {
-        return x*y;
+        return a - b;
     }
 }

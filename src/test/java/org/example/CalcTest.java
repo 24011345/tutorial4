@@ -8,7 +8,12 @@ public class CalcTest {
 
     @Test
     void testAddition() {
-        assertEquals(2, c.add(4,2));
+        assertEquals(6, c.add(4,2));
+    }
+
+    @Test
+    void testSubtraction(){
+        assertEquals(2, c.subtract(4, 2));
     }
 
 }
